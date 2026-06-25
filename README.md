@@ -1,98 +1,41 @@
+# 📚 PaperPilot AI – AI-Powered Research Operating System
 
-# PaperPilot AI – AI-Powered Research Operating System
-
-<p align="center">
-  <b>Discover • Analyze • Compare • Synthesize • Cite Research Papers using AI</b>
-</p>
-
-<p align="center">
-  An enterprise-grade AI research platform for literature discovery, paper comparison, synthesis, conversational querying, and citation generation using FastAPI, Gemini AI, LangGraph, RAG, and Next.js.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python"/>
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi"/>
-  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js"/>
-  <img src="https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge&logo=google"/>
-  <img src="https://img.shields.io/badge/LangGraph-Agentic_AI-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-</p>
+PaperPilot AI is an AI-powered research operating system that helps researchers, students, and developers discover, analyze, compare, and synthesize scientific literature at scale. The platform integrates academic search engines with generative AI to automate literature reviews, methodology comparisons, conversational research exploration, and citation generation through an interactive dashboard.
 
 ---
 
-# 🚀 Overview
+## 🚀 Features
 
-PaperPilot AI is an AI-powered Research Operating System designed to help researchers, students, engineers, and knowledge workers accelerate academic research workflows.
+### 🔍 Multi-Source Research Search
+- Search papers from **arXiv** and **Semantic Scholar**
+- Unified search experience with filtering and ranking
+- Metadata extraction and paper indexing
+- Infinite scrolling and pagination support
 
-The platform combines:
+### 📖 AI Literature Review Generation
+- Generate structured literature reviews automatically
+- Create introductions, methodology comparisons, findings, and future directions
+- Citation-aware review generation
+- Download reviews as Markdown and PDF
 
-- Literature discovery from multiple academic sources
-- AI-generated literature reviews
-- Methodology comparison between papers
-- Conversational research assistant
-- Citation generation
-- Bookmark collections and research organization
-- AI-powered synthesis and reasoning workflows
+### ⚖️ Paper Comparison Engine
+- Side-by-side comparison of research papers
+- Compare:
+  - Model Architectures
+  - Methodologies
+  - Performance Metrics
+  - Limitations
+  - Future Research Directions
+- Export comparison reports
 
-Instead of manually reading dozens of papers, PaperPilot AI acts as an intelligent research co-pilot that assists throughout the entire research lifecycle.
+### 💬 Ask Papers (Research Copilot)
+- Perplexity-style conversational research assistant
+- Ask questions across multiple research papers
+- Inline citations and source references
+- Suggested follow-up questions
+- Deep Scan mode for comprehensive analysis
 
----
-
-# ✨ Features
-
-## 🔍 Multi-Source Paper Search
-- Search papers using keywords, authors, or topics
-- Integrates with:
-  - arXiv
-  - Semantic Scholar
-- Intelligent paper retrieval and ranking
-- Metadata extraction and persistence
-
----
-
-## 📚 AI Literature Review Generator
-Generate comprehensive literature reviews automatically.
-
-Features:
-
-- Introduction generation
-- Methodology comparison
-- Findings synthesis
-- Research gaps identification
-- Future directions
-- Citation-aware summarization
-
----
-
-## ⚖️ Paper Comparison Engine
-Compare papers side-by-side across:
-
-- Architecture
-- Methodology
-- Training Objectives
-- Datasets
-- Metrics
-- Strengths
-- Limitations
-- Use Cases
-
----
-
-## 💬 Ask Papers (Research Chat)
-Perplexity-style conversational research assistant.
-
-Features:
-
-- Conversational querying
-- Inline citations
-- Source grounding
-- Follow-up questions
-- Deep research mode
-- Context-aware responses
-
----
-
-## 📝 Citation Generator
+### 📝 Citation Generator
 Generate citations in multiple formats:
 
 - APA 7th Edition
@@ -100,159 +43,37 @@ Generate citations in multiple formats:
 - BibTeX
 
 Features:
-
 - Copy individual citations
-- Export all citations
+- Copy all citations
 - Citation history tracking
+- Export citation collections
 
----
+### 📂 Research Workspace
+- Save papers into collections
+- Create custom folders
+- Tag-based filtering
+- Bookmark organization
+- Search across saved papers
 
-## 📁 Research Collections
-Organize papers using:
-
-- Bookmark collections
-- Folders
-- Tags
-- Search filters
-- Research workspaces
-
----
-
-## 📊 Analytics Dashboard
-Monitor research activity through:
-
+### 📊 Research Dashboard
 - Papers indexed
 - Reviews generated
-- Saved collections
-- Search history
-- Recent activities
+- Saved papers statistics
+- Recent activity timeline
+- Quick actions dashboard
+
+### 📱 Fully Responsive Interface
+- Desktop-first research workspace
+- Tablet support
+- Mobile navigation
+- Dark mode interface
+- Smooth micro-interactions using Framer Motion
 
 ---
 
-## 📱 Responsive Research Workspace
-Fully responsive:
-
-- Desktop
-- Tablet
-- Mobile
-
-Modern dark-mode research interface inspired by:
-
-- Perplexity
-- Linear
-- Notion
-- Vercel Dashboard
-
----
-
-# 🏗️ System Architecture
-
-## Architecture Flow
-
-```text
-                   ┌──────────────────────┐
-                   │      Next.js 15      │
-                   │    Research Frontend │
-                   └──────────┬───────────┘
-                              │
-                              │ Axios API Client
-                              ▼
-                 ┌──────────────────────────┐
-                 │      FastAPI Backend     │
-                 │      REST Endpoints      │
-                 └──────────┬───────────────┘
-                            │
-       ┌────────────────────┼──────────────────┐
-       │                    │                  │
-       ▼                    ▼                  ▼
-  Gemini AI            SQLite DB          ChromaDB
-       │                    │                  │
-       └────────────────────┼──────────────────┘
-                            │
-                            ▼
-             arXiv + Semantic Scholar APIs
-```
-
----
-
-# 📸 Application Screenshots
-
-## Dashboard
-
-<p align="center">
-  <img src="./screenshots/dashboard.png" width="1000"/>
-</p>
-
----
-
-## Search Papers
-
-<p align="center">
-  <img src="./screenshots/search.png" width="1000"/>
-</p>
-
----
-
-## Literature Review
-
-<p align="center">
-  <img src="./screenshots/literature-review.png" width="1000"/>
-</p>
-
----
-
-## Compare Papers
-
-<p align="center">
-  <img src="./screenshots/compare.png" width="1000"/>
-</p>
-
----
-
-## Ask Papers
-
-<p align="center">
-  <img src="./screenshots/ask-papers.png" width="1000"/>
-</p>
-
----
-
-## Citations
-
-<p align="center">
-  <img src="./screenshots/citations.png" width="1000"/>
-</p>
-
----
-
-## Saved Papers
-
-<p align="center">
-  <img src="./screenshots/saved-papers.png" width="1000"/>
-</p>
-
----
-
-## Pricing
-
-<p align="center">
-  <img src="./screenshots/pricing.png" width="1000"/>
-</p>
-
----
-
-## History
-
-<p align="center">
-  <img src="./screenshots/history.png" width="1000"/>
-</p>
-
----
-
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 ## Frontend
-
 - Next.js 15 (App Router)
 - TypeScript
 - Tailwind CSS
@@ -261,30 +82,198 @@ Modern dark-mode research interface inspired by:
 - React Query
 - Axios
 - Lucide React
-- shadcn/ui
-
----
+- React Markdown
 
 ## Backend
-
 - FastAPI
 - Python 3.11
 - SQLAlchemy
-- SQLite
+- SQLite (WAL Mode)
 - ChromaDB
-- LangGraph
-- Pydantic
 - HTTPX
+- Pydantic
+- Uvicorn
+
+## AI & Research Services
+- Google Gemini API
+- LangGraph Agent Workflows
+- arXiv API
+- Semantic Scholar API
+- Vector Search
+- Citation Generation Engine
 
 ---
 
-## AI & Research Services
+# 📐 Architecture Diagram
 
-- Gemini AI
-- RAG Architecture
-- Sentence Transformers
-- arXiv API
-- Semantic Scholar API
+```mermaid
+graph TD
+
+A[User Browser] --> B[Next.js 15 Frontend]
+
+B --> C[FastAPI Backend]
+
+C --> D[arXiv API]
+C --> E[Semantic Scholar API]
+
+C --> F[Gemini AI Services]
+C --> G[LangGraph Agents]
+
+C --> H[SQLite Database]
+C --> I[ChromaDB Vector Store]
+
+F --> J[Literature Review Engine]
+F --> K[Paper Comparison Engine]
+F --> L[Ask Papers Engine]
+F --> M[Citation Generator]
+
+G --> J
+G --> K
+G --> L
+G --> M
+```
+
+---
+
+# 🔄 Research Processing Flow
+
+```mermaid
+sequenceDiagram
+
+participant User
+participant Frontend
+participant Backend
+participant SearchAPI
+participant GeminiAI
+participant Database
+
+User->>Frontend: Search Research Topic
+Frontend->>Backend: POST /search
+Backend->>SearchAPI: Query arXiv & Semantic Scholar
+SearchAPI-->>Backend: Paper Metadata
+Backend->>Database: Store Papers
+Backend->>GeminiAI: Generate Analysis
+GeminiAI-->>Backend: Review/Comparison/Citations
+Backend-->>Frontend: Structured Results
+Frontend-->>User: Interactive Research Dashboard
+```
+
+---
+
+# 🚀 Core Modules
+
+## 📊 Dashboard
+- Research statistics
+- Recent activities
+- Quick action cards
+- Indexed paper metrics
+- Saved papers overview
+
+---
+
+## 🔍 Search Papers
+- Multi-source academic search
+- Metadata extraction
+- Advanced filtering
+- Save papers
+- Citation generation shortcuts
+
+---
+
+## 📖 Literature Review
+- AI-generated literature synthesis
+- Methodology breakdowns
+- Structured sections
+- Export functionality
+- Citation integration
+
+---
+
+## ⚖️ Compare Papers
+- Side-by-side comparison tables
+- Architecture comparison
+- Performance metrics
+- Strengths and limitations
+- Export reports
+
+---
+
+## 💬 Ask Papers
+- Conversational research exploration
+- Inline citations
+- Deep Scan mode
+- Follow-up suggestions
+- Context-aware responses
+
+---
+
+## 📝 Citations
+- APA
+- IEEE
+- BibTeX
+- Copy & export support
+- Citation history
+
+---
+
+## 📂 Saved Papers
+- Collections
+- Tags
+- Folder organization
+- Search
+- Bookmark management
+
+---
+
+# 📸 Application Screenshots
+
+## Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+---
+
+## Search Papers
+![Search Papers](docs/screenshots/search.png)
+
+---
+
+## Literature Review
+![Literature Review](docs/screenshots/review.png)
+
+---
+
+## Compare Papers
+![Compare Papers](docs/screenshots/compare.png)
+
+---
+
+## Ask Papers
+![Ask Papers](docs/screenshots/ask.png)
+
+---
+
+## Citations
+![Citations](docs/screenshots/citations.png)
+
+---
+
+## Saved Papers
+![Saved Papers](docs/screenshots/saved.png)
+
+---
+
+## Pricing
+![Pricing](docs/screenshots/pricing.png)
+
+---
+
+## Login
+![Login](docs/screenshots/login.png)
+
+---
+
+## Profile Settings
+![Profile Settings](docs/screenshots/profile.png)
 
 ---
 
@@ -293,27 +282,99 @@ Modern dark-mode research interface inspired by:
 ```text
 PaperPilot-AI
 │
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   ├── services/
-│   │   ├── repositories/
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── agents/
-│   │   └── utils/
-│   └── tests/
+├── backend
+│   ├── app
+│   ├── api
+│   ├── core
+│   ├── models
+│   ├── services
+│   ├── db
+│   └── tests
 │
-├── frontend/
-│   └── src/
-│       ├── app/
-│       ├── components/
-│       ├── hooks/
-│       ├── store/
-│       ├── lib/
-│       └── types/
+├── frontend
+│   ├── src
+│   │   ├── app
+│   │   ├── components
+│   │   ├── hooks
+│   │   ├── store
+│   │   ├── lib
+│   │   └── types
 │
-└── screenshots/
+├── docs
+│   └── screenshots
+│
+└── README.md
+```
+
+---
+
+# 📦 Installation
+
+## Prerequisites
+- Python 3.11+
+- Node.js 18+
+- npm
+- Gemini API Key
+
+---
+
+# 1️⃣ Backend Setup
+
+```bash
+cd backend
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# Linux/Mac
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+Create `.env`
+
+```env
+GEMINI_API_KEY=your_api_key
+DATABASE_URL=sqlite:///./data/papers.db
+ENVIRONMENT=development
+```
+
+Run:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Backend:
+
+```
+http://localhost:8000
+```
+
+Swagger:
+
+```
+http://localhost:8000/docs
+```
+
+---
+
+# 2️⃣ Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+npm run dev
+```
+
+Frontend:
+
+```
+http://localhost:3000
 ```
 
 ---
@@ -336,7 +397,7 @@ POST /api/v1/search
 
 ---
 
-## Generate Literature Review
+## Literature Review
 
 ```http
 POST /api/v1/review
@@ -360,7 +421,7 @@ POST /api/v1/query
 
 ---
 
-## Generate Citations
+## Citations
 
 ```http
 POST /api/v1/citations
@@ -368,109 +429,22 @@ POST /api/v1/citations
 
 ---
 
-## Papers Cache
+## Papers
 
 ```http
 GET /api/v1/papers
-GET /api/v1/papers/{id}
 ```
 
 ---
 
-# ⚙️ Installation
-
-# 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/Geethanjaliii/PaperPilot-AI.git
-
-cd PaperPilot-AI
-```
-
----
-
-# 2️⃣ Backend Setup
-
-```bash
-cd backend
-
-python -m venv .venv
-```
-
-Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-Linux / Mac
-
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Create `.env`
-
-```env
-GEMINI_API_KEY=
-DATABASE_URL=
-CHROMA_DB_PATH=./data/chroma
-PAPERS_DB_PATH=./data/papers.db
-```
-
-Run server
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Backend URL
-
-```text
-http://127.0.0.1:8000
-```
-
-Swagger
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
-
-# 3️⃣ Frontend Setup
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Frontend URL
-
-```text
-http://localhost:3000
-```
-
----
-
-# 🌍 Environment Variables
+# 🛡️ Environment Variables
 
 ## Backend
 
 ```env
 GEMINI_API_KEY=
 DATABASE_URL=
-PAPERS_DB_PATH=
-CHROMA_DB_PATH=
+ENVIRONMENT=
 ```
 
 ## Frontend
@@ -489,7 +463,7 @@ Backend Tests
 pytest
 ```
 
-Production Build
+Frontend Build Verification
 
 ```bash
 npm run build
@@ -497,24 +471,20 @@ npm run build
 
 ---
 
-# 🚀 Deployment
+# 🌐 Deployment
 
 ## Backend
 
-Recommended:
-
-- Railway
-- Render
-- AWS ECS
-- Google Cloud Run
-
-Docker
-
 ```bash
 docker build -t paperpilot-backend .
-
 docker run -p 8000:8000 paperpilot-backend
 ```
+
+Deployment Platforms:
+- Railway
+- Render
+- Google Cloud Run
+- AWS ECS
 
 ---
 
@@ -524,8 +494,7 @@ docker run -p 8000:8000 paperpilot-backend
 npm run build
 ```
 
-Recommended:
-
+Deployment Platforms:
 - Vercel
 - Netlify
 - AWS Amplify
@@ -534,44 +503,40 @@ Recommended:
 
 # 🔮 Future Enhancements
 
-- Authentication & User Accounts
-- Team Workspaces
-- Shared Research Collections
-- PDF Upload & Semantic Search
+- RAG-based Research Assistant
+- PDF Upload and Paper Parsing
 - Research Knowledge Graph
-- Vector-Based Citation Recommendation
+- Citation Network Visualization
+- Multi-Agent Research Workflows
+- Collaborative Research Workspaces
 - Research Timeline Generation
-- AI Research Agent Workflows
-- Multi-Agent Collaboration
-- Real-Time Collaboration
-- Export to Notion
-- Export to Overleaf
-- Google Drive Integration
-- Zotero Integration
+- Personalized Recommendations
+- Redis Caching
+- Docker Compose Deployment
+- Kubernetes Deployment
+- CI/CD with GitHub Actions
 
 ---
 
 # 📈 Project Highlights
 
-✅ Multi-Agent AI Research Platform
+✅ AI-Powered Research Operating System
 
-✅ AI Literature Review Generation
+✅ Multi-Source Academic Search Platform
 
-✅ Side-by-Side Methodology Comparison
+✅ Automated Literature Review Generation
 
-✅ Conversational Research Assistant
+✅ Side-by-Side Paper Comparison Engine
 
-✅ Citation Generation Engine
+✅ Conversational Research Copilot
 
-✅ RAG + LangGraph Architecture
+✅ Citation Management System
 
-✅ FastAPI + Next.js Full-Stack System
+✅ Vector Search & AI Workflows
 
-✅ SQLite + ChromaDB Persistence
+✅ FastAPI + Next.js Full-Stack Architecture
 
-✅ Production-Hardened Backend
-
-✅ Modern Enterprise Research Dashboard
+✅ Production-Ready Modular Design
 
 ---
 
@@ -579,8 +544,7 @@ Recommended:
 
 **Geethanjali V N**
 
-GitHub:
-https://github.com/Geethanjaliii
+GitHub: https://github.com/Geethanjaliii
 
 Project Repository:
 https://github.com/Geethanjaliii/PaperPilot-AI
