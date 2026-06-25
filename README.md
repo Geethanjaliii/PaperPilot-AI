@@ -248,12 +248,12 @@ Frontend-->>User: Interactive Research Dashboard
 ---
 
 ## Ask Papers
-![Ask Papers](docs/screenshots/ask.png)
+![Ask Papers](docs/screenshots/papers.png)
 
 ---
 
 ## Citations
-![Citations](docs/screenshots/citations.png)
+![Citations](docs/screenshots/Citations.png)
 
 ---
 
