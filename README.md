@@ -267,7 +267,7 @@ Frontend-->>User: Interactive Research Dashboard
 
 ---
 
-## Login
+## History
 ![Login](docs/screenshots/History.png)
 
 ---
