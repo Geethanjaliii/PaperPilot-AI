@@ -147,12 +147,6 @@ Modern dark-mode research interface inspired by:
 
 # 🏗️ System Architecture
 
-<p align="center">
-  <img src="./screenshots/architecture.png" alt="Architecture Diagram" width="1000"/>
-</p>
-
----
-
 ## Architecture Flow
 
 ```text
