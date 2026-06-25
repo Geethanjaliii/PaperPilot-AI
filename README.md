@@ -238,7 +238,7 @@ Frontend-->>User: Interactive Research Dashboard
 ---
 
 ## Literature Review
-![Literature Review](docs/screenshots/Literature review.png)
+![Literature Review](docs/screenshots/Literaturereview.png)
 
 ---
 
