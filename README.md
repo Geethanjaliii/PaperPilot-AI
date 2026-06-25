@@ -270,6 +270,7 @@ Frontend-->>User: Interactive Research Dashboard
 ## History
 ![History](docs/screenshots/History.png)
 
+
 # 📂 Project Structure
 
 ```text
