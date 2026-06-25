@@ -253,7 +253,7 @@ Frontend-->>User: Interactive Research Dashboard
 ---
 
 ## Citations
-![Citations](docs/screenshots/Citations.png)
+![Citations](docs/screenshots/Citaions.png)
 
 ---
 
