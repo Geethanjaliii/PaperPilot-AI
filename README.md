@@ -268,14 +268,7 @@ Frontend-->>User: Interactive Research Dashboard
 ---
 
 ## History
-![Login](docs/screenshots/History.png)
-
----
-
-## Profile Settings
-![Profile Settings](docs/screenshots/profile.png)
-
----
+![History](docs/screenshots/History.png)
 
 # 📂 Project Structure
 
