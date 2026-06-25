@@ -2,10 +2,6 @@
 # PaperPilot AI – AI-Powered Research Operating System
 
 <p align="center">
-  <img src="./screenshots/logo.png" width="120" alt="PaperPilot AI Logo"/>
-</p>
-
-<p align="center">
   <b>Discover • Analyze • Compare • Synthesize • Cite Research Papers using AI</b>
 </p>
 
