@@ -228,7 +228,7 @@ Frontend-->>User: Interactive Research Dashboard
 # 📸 Application Screenshots
 
 ## Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](docs/screenshots/Dashboard.png)
 
 ---
 
@@ -238,7 +238,7 @@ Frontend-->>User: Interactive Research Dashboard
 ---
 
 ## Literature Review
-![Literature Review](docs/screenshots/review.png)
+![Literature Review](docs/screenshots/Literaturereview.png)
 
 ---
 
