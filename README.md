@@ -106,7 +106,7 @@ Features:
 
 # 📐 Architecture Diagram
 
-```mermaid
+`
 graph TD
 
 A[User Browser] --> B[Next.js 15 Frontend]
@@ -137,7 +137,7 @@ G --> M
 
 # 🔄 Research Processing Flow
 
-```mermaid
+```
 sequenceDiagram
 
 participant User
